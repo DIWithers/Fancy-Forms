@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validating Forms</title>
+
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> <!-- https://developers.google.com/speed/libraries/#jquery -->
+	<script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+
+<form class="sign-up-form">
+	<h1>Sign up now!<span>Sign up for the dev job of your dreams!</span></h1>
+
+	<div class="section">
+		<span>1</span> First Name &amp; Address    <!--  ONE -->
+	</div>
+	<div class="form-wrapper">
+	<div class=" error fullName-error"></div>
+		<label>Your full name<input type="text" class="fullName" placeholder="Your full name"></label>
+	</div>
+	<div class="form-wrapper">
+	<div class="error address-error"></div>
+		<label>Address<input type="text" class="address" placeholder="Your Address"></label>
+	</div>
+
+	<div class="section">
+		<span>2</span> Contact Info				<!-- TWO -->
+	</div>
+	<div class="form-wrapper">
+	<div class="error email-error"></div>
+		<label>Email<input type="text" class="email" placeholder="Email Address"></label>
+	</div>
+	<div class="form-wrapper">
+	<div class="error phone-error"></div>
+		<label>Phone<input type="text" class="phone" placeholder="Your Phone Number"></label>
+	</div>
+
+	<div class="section">
+		<span>3</span>Password			<!-- THREE -->
+	</div>
+	<div class="form-wrapper">
+	<div class="error pass-error"></div>
+		<label>Password<input type="password" class="password" placeholder="Password must be 6 characters"></label>
+	</div>
+	<div class="form-wrapper">
+	<div class="error pass2-error"></div>
+		<label>Password Confirmation<input type="password" class="password2" placeholder="Confirm password"></label>
+	</div>
+	<div class="section">
+		<span>4</span> Contact Info			 <!-- FOUR -->
+	</div>
+	<div class="form-wrapper">
+	<div class="error mySkills-error"></div>
+		<label>My tech skills<input type="text" class="mySkills" placeholder="Please enter your skills."></label>
+	</div>
+	
+	<div class="form-wrapper">
+	<div class="error years-error"></div>
+		<label>Years of Experience<input type="number class="years" placeholder="Years of Experience"></label>
+	</div>
+	<div class="form-wrapper">
+		<input type="submit" class="submit" value="GET ME A JOB!">
+		<div class=" error check-error"></div>
+		<input type="checkbox" class="privacy">I agree to the terms and policies
+	</div>
+
+
+
+
+</form>
+
+
+</body>
+</html>

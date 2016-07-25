@@ -1,0 +1,29 @@
+body {
+	max-width: 1000px;
+	padding: 50px;
+	background-color: #fafafa;
+	margin: auto;
+}
+.wrapper {
+	width: 75%;
+	background-color: white;
+	margin: auto;
+	padding:50px;
+}
+
+.as-a input {
+	display: block;
+	margin: 0;
+	text-align: center;
+	
+}
+
+
+.btn {
+	margin: auto;
+	display: block;
+}
+.req {
+	font-size: 10px;
+	color: red;
+}
